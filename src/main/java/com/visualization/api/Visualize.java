@@ -9,10 +9,6 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "data")
 public class Visualize {
-	
-	
-
-	
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
